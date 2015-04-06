@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Thoi Su | Engineering is my passion]]></title>
+  <title><![CDATA[Category: Thoi Su | HOANG]]></title>
   <link href="http://hddt.github.io/blog/categories/thoi-su/atom.xml" rel="self"/>
   <link href="http://hddt.github.io/"/>
-  <updated>2015-04-07T00:13:24+07:00</updated>
+  <updated>2015-04-07T02:33:17+07:00</updated>
   <id>http://hddt.github.io/</id>
   <author>
     <name><![CDATA[Hoang Truong]]></name>
@@ -15,16 +15,28 @@
   
   <entry>
     <title type="html"><![CDATA[Third Post]]></title>
-    <link href="http://hddt.github.io/blog/2015/04/07/third-post/"/>
+    <link href="http://hddt.github.io/blog/2015/04/third-post/"/>
     <updated>2015-04-07T00:01:18+07:00</updated>
-    <id>http://hddt.github.io/blog/2015/04/07/third-post</id>
-    <content type="html"><![CDATA[<p><img src="http://m.f29.img.vnecdn.net/2015/04/06/800px-Kobalt-electrolytic-and-9277-1867-1428315640.jpg" alt="phong su phong xa" />
-Coban (ký hiệu hóa học Co) là kim loại có thể ổn định (không có tính phóng xạ khi được tìm thấy trong tự nhiên) hoặc bất ổn (có tính phóng xạ, nhân tạo). Đồng vị phóng xạ phổ biến nhất của Co là Co-60.</p>
+    <id>http://hddt.github.io/blog/2015/04/third-post</id>
+    <content type="html"><![CDATA[<p><img src="http://m.f29.img.vnecdn.net/2015/04/06/800px-Kobalt-electrolytic-and-9277-1867-1428315640.jpg" alt="phong su phong xa" /></p>
+
+<p>Coban (ký hiệu hóa học Co) là kim loại có thể ổn định (không có tính phóng xạ khi được tìm thấy trong tự nhiên) hoặc bất ổn (có tính phóng xạ, nhân tạo). Đồng vị phóng xạ phổ biến nhất của Co là Co-60.</p>
 
 <!--more-->
 
-
 <p>Co-60 có tính phóng xạ được Glenn T. Seaborg và John Livingood, hai chuyên gia đại học California - Berkeley, phát hiện vào cuối những năm 1930.</p>
+
+<p>{ % coderay lang:cplusplus linenos:true This is a great example! http://fritz-hut.com My Blog % }
+// Get all the fiducials from the Sim proxy
+for (int f = 0; f &lt; 6; f++) {
+      double x, y, a;
+      sprintf(fidBuff, “Fid%d”, f+1);</p>
+
+<pre><code>  simProxy.GetPose2d(fidBuff, x, y, a);
+  FiducialObjects[f][0] = f;
+  FiducialObjects[f][1] = x;
+  FiducialObjects[f][2] = y; } { % endcoderay % }
+</code></pre>
 
 <p>Co không có tính phóng xạ thường có trong quặng và được sử dụng để tạo màu xanh cho gốm sứ và thủy tinh. Nuclit phóng xạ Co-60 được tạo ra để sử dụng trong các máy gia tốc tuyến tính. Nó cũng được tạo ra như một sản phẩm phụ của hoạt động lò phản ứng hạt nhân. Co-60 được sử dụng trong nhiều ứng dụng công nghiệp, xạ trị y tế, và ngày càng được áp dụng trong quy trình tiệt trùng một số thực phẩm mà không làm hư hỏng sản phẩm. Tương tự như hoạt động của tia X, Co-60 có thể dùng cho kỹ thuật chụp công nghiệp để phát hiện lỗi cấu trúc trong bộ phận kim loại.</p>
 
