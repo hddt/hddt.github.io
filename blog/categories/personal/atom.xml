@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Personal | HOANG]]></title>
+  <link href="http://hddt.github.io/blog/categories/personal/atom.xml" rel="self"/>
+  <link href="http://hddt.github.io/"/>
+  <updated>2015-04-24T01:26:06+07:00</updated>
+  <id>http://hddt.github.io/</id>
+  <author>
+    <name><![CDATA[Hoang Truong]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[First Post]]></title>
+    <link href="http://hddt.github.io/blog/2015/04/first-post/"/>
+    <updated>2015-04-06T23:14:49+07:00</updated>
+    <id>http://hddt.github.io/blog/2015/04/first-post</id>
+    <content type="html"><![CDATA[<p>Day la phan excerp
+Viet thoai mai</p>
+
+<p>nha nay la phan noi dung</p>
+
+<p>&#8220;`
+Toan bo phan tren:
+—
+layout: post
+title: “Test and note something-post02”
+date: 2015-03-30 18:48:50 +0700
+comments: true
+categories: 
+- test
+- note
+- persional
+excerpt_separator: <!--more-->
+—
+Day la phan excerp
+Viet thoai mai
+<!--more--></p>
+
+<p>Day la phan noi dung
+&#8220;`</p>
+
+<h3 id="test-code">Test code</h3>
+
+<ol>
+  <li>
+    <p>Highlight but no number ruby
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">show</span>
+  <span class="vi">@widget</span> <span class="o">=</span> <span class="no">Widget</span><span class="p">(</span><span class="n">params</span><span class="o">[</span><span class="ss">:id</span><span class="o">]</span><span class="p">)</span>
+  <span class="n">respond_to</span> <span class="k">do</span> <span class="o">|</span><span class="nb">format</span><span class="o">|</span>
+ <span class="nb">format</span><span class="o">.</span><span class="n">html</span> <span class="c1"># show.html.erb</span>
+ <span class="nb">format</span><span class="o">.</span><span class="n">json</span> <span class="p">{</span> <span class="n">render</span> <span class="ss">json</span><span class="p">:</span> <span class="vi">@widget</span> <span class="p">}</span>
+  <span class="k">end</span>
+<span class="k">end</span></code></pre></div></p>
+  </li>
+  <li>
+    <p>Highlight with number ruby
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="lineno">1</span> <span class="k">def</span> <span class="nf">show</span>
+<span class="lineno">2</span>   <span class="vi">@widget</span> <span class="o">=</span> <span class="no">Widget</span><span class="p">(</span><span class="n">params</span><span class="o">[</span><span class="ss">:id</span><span class="o">]</span><span class="p">)</span>
+<span class="lineno">3</span>   <span class="n">respond_to</span> <span class="k">do</span> <span class="o">|</span><span class="nb">format</span><span class="o">|</span>
+<span class="lineno">4</span>  <span class="nb">format</span><span class="o">.</span><span class="n">html</span> <span class="c1"># show.html.erb</span>
+<span class="lineno">5</span>  <span class="nb">format</span><span class="o">.</span><span class="n">json</span> <span class="p">{</span> <span class="n">render</span> <span class="ss">json</span><span class="p">:</span> <span class="vi">@widget</span> <span class="p">}</span>
+<span class="lineno">6</span>   <span class="k">end</span>
+<span class="lineno">7</span> <span class="k">end</span></code></pre></div></p>
+  </li>
+  <li>
+    <p>Hight light python
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="lineno"> 1</span> <span class="kn">from</span> <span class="nn">django.core.exceptions</span> <span class="kn">import</span> <span class="n">ObjectDoesNotExist</span>
+<span class="lineno"> 2</span> <span class="kn">from</span> <span class="nn">django.contrib.contenttypes.models</span> <span class="kn">import</span> <span class="n">ContentType</span><span class="o">&lt;/</span><span class="n">p</span><span class="o">&gt;</span>
+<span class="lineno"> 3</span>   <span class="o">&lt;/</span><span class="n">li</span><span class="o">&gt;</span>
+<span class="lineno"> 4</span> <span class="o">&lt;/</span><span class="n">ol</span><span class="o">&gt;</span>
+<span class="lineno"> 5</span> 
+<span class="lineno"> 6</span> <span class="o">&lt;</span><span class="n">p</span><span class="o">&gt;</span><span class="k">class</span> <span class="nc">PermissionList</span><span class="p">(</span><span class="n">generics</span><span class="o">.</span><span class="n">ListAPIView</span><span class="p">):</span>
+<span class="lineno"> 7</span>     <span class="n">model</span> <span class="o">=</span> <span class="n">Permission</span>
+<span class="lineno"> 8</span>     <span class="n">queryset</span> <span class="o">=</span> <span class="n">Permission</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">all</span><span class="p">()</span>
+<span class="lineno"> 9</span>     <span class="c"># permission_classes = (permissions.IsAuthenticatedOrReadOnly,)</span>
+<span class="lineno">10</span>     <span class="n">serializer_class</span> <span class="o">=</span> <span class="n">PermissionSerializer</span><span class="o">&lt;/</span><span class="n">p</span><span class="o">&gt;</span>
+<span class="lineno">11</span> 
+<span class="lineno">12</span> <span class="o">&lt;</span><span class="n">p</span><span class="o">&gt;</span><span class="k">class</span> <span class="nc">GroupList</span><span class="p">(</span><span class="n">generics</span><span class="o">.</span><span class="n">ListCreateAPIView</span><span class="p">):</span>
+<span class="lineno">13</span>     <span class="n">model</span> <span class="o">=</span> <span class="n">Group</span>
+<span class="lineno">14</span>     <span class="n">queryset</span> <span class="o">=</span> <span class="n">Group</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">all</span><span class="p">()</span>
+<span class="lineno">15</span>     <span class="c"># permission_classes = (permissions.IsAuthenticatedOrReadOnly,)</span>
+<span class="lineno">16</span>     <span class="n">serializer_class</span> <span class="o">=</span> <span class="n">GroupSerializer</span></code></pre></div></p>
+
+<ol>
+  <li>Highlight C</li>
+</ol>
+
+<p><div class="highlight"><pre><code class="language-c" data-lang="c"><span class="lineno"> 1</span> <span class="c1">// ChuongIV-Phuong phap Day Cung.</span>
+<span class="lineno"> 2</span> <span class="c1">// phuong trinh trang 24</span>
+<span class="lineno"> 3</span> <span class="cp">#include &lt;iostream&gt;</span>
+<span class="lineno"> 4</span> <span class="cp">#include &lt;cmath&gt;</span>
+<span class="lineno"> 5</span> <span class="cp">#define EPS 0.001</span>
+<span class="lineno"> 6</span> <span class="n">using</span> <span class="n">namespace</span> <span class="n">std</span><span class="p">;</span><span class="o">&lt;/</span><span class="n">cmath</span><span class="o">&gt;&lt;/</span><span class="n">iostream</span><span class="o">&gt;&lt;/</span><span class="n">p</span><span class="o">&gt;</span>
+<span class="lineno"> 7</span> 
+<span class="lineno"> 8</span> <span class="o">&lt;</span><span class="n">p</span><span class="o">&gt;</span><span class="c1">// f(x) = 2^x + x -4</span>
+<span class="lineno"> 9</span> <span class="kt">float</span> <span class="n">f</span><span class="p">(</span><span class="kt">float</span> <span class="n">x</span><span class="p">)</span>
+<span class="lineno">10</span> <span class="p">{</span>
+<span class="lineno">11</span> 	<span class="k">return</span> <span class="n">pow</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="n">x</span><span class="p">)</span> <span class="o">+</span> <span class="n">x</span> <span class="o">-</span><span class="mi">4</span><span class="p">;</span>
+<span class="lineno">12</span> <span class="p">}</span><span class="o">&lt;/</span><span class="n">p</span><span class="o">&gt;</span>
+<span class="lineno">13</span> 
+<span class="lineno">14</span> <span class="o">&lt;</span><span class="n">p</span><span class="o">&gt;</span><span class="kt">void</span> <span class="n">thongBaoKetQua</span><span class="p">(</span><span class="kt">float</span> <span class="n">kq</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">coNghiem</span> <span class="o">=</span> <span class="nb">true</span><span class="p">)</span>
+<span class="lineno">15</span> <span class="p">{</span>
+<span class="lineno">16</span> 	<span class="k">if</span> <span class="p">(</span><span class="n">coNghiem</span><span class="p">)</span>
+<span class="lineno">17</span> 		<span class="n">cout</span><span class="err">«“</span><span class="n">Phuong</span> <span class="n">trinh</span> <span class="n">co</span> <span class="n">nghiem</span> <span class="nl">la</span><span class="p">:</span> <span class="err">“«</span><span class="n">kq</span><span class="p">;</span>
+<span class="lineno">18</span> 	<span class="k">else</span> <span class="n">cout</span><span class="err">«“</span><span class="n">Phuong</span> <span class="n">trinh</span> <span class="n">khong</span> <span class="n">co</span> <span class="n">nghiem</span> <span class="n">trong</span> <span class="n">khoang</span> <span class="n">nay</span><span class="err">”</span><span class="p">;</span>
+<span class="lineno">19</span> <span class="p">}</span></code></pre></div></p>
+
+<ol>
+  <li>hightlight
+<div class="highlight"><pre><code class="language-c#" data-lang="c#"><span class="lineno"> 1</span> <span class="k">using</span> <span class="nn">System</span><span class="p">;</span>
+<span class="lineno"> 2</span> <span class="k">using</span> <span class="nn">System.Collections.Generic</span><span class="p">;</span>
+<span class="lineno"> 3</span> <span class="k">using</span> <span class="nn">System.Linq</span><span class="p">;</span>
+<span class="lineno"> 4</span> <span class="k">using</span> <span class="nn">System.Text</span><span class="p">;</span>
+<span class="lineno"> 5</span> <span class="k">using</span> <span class="nn">System.Threading.Tasks</span><span class="p">;&lt;/</span><span class="n">li</span><span class="p">&gt;</span>
+<span class="lineno"> 6</span> <span class="p">&lt;/</span><span class="n">ol</span><span class="p">&gt;</span>
+<span class="lineno"> 7</span> 
+<span class="lineno"> 8</span> <span class="p">&lt;</span><span class="n">p</span><span class="p">&gt;</span><span class="k">namespace</span> <span class="nn">Dates</span>
+<span class="lineno"> 9</span> <span class="p">{</span>
+<span class="lineno">10</span>     <span class="k">class</span> <span class="nc">Program</span>
+<span class="lineno">11</span>     <span class="p">{</span>
+<span class="lineno">12</span>         <span class="k">static</span> <span class="k">void</span> <span class="nf">Main</span><span class="p">(</span><span class="kt">string</span><span class="p">[]</span> <span class="n">args</span><span class="p">)</span>
+<span class="lineno">13</span>         <span class="p">{</span>
+<span class="lineno">14</span>             <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="n">DateTime</span><span class="p">.</span><span class="n">Today</span><span class="p">.</span><span class="n">ToLongDateString</span><span class="p">());</span>
+<span class="lineno">15</span>             <span class="c1">//DateTime TimeObj_0;</span>
+<span class="lineno">16</span>             <span class="c1">//DateTime TimeObj_1;</span>
+<span class="lineno">17</span>             <span class="kt">string</span><span class="p">[]</span> <span class="n">date</span> <span class="p">=</span> <span class="p">{</span> <span class="err">“”</span><span class="p">,</span> <span class="err">“”</span> <span class="p">};&lt;/</span><span class="n">p</span><span class="p">&gt;</span>
+<span class="lineno">18</span> 
+<span class="lineno">19</span> <span class="p">&lt;</span><span class="n">pre</span><span class="p">&gt;&lt;</span><span class="n">code</span><span class="p">&gt;</span>        <span class="k">do</span>
+<span class="lineno">20</span>         <span class="p">{</span>
+<span class="lineno">21</span>             <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;&quot;</span><span class="p">);</span>
+<span class="lineno">22</span>             <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;Enter a date in YMD format:&quot;</span><span class="p">);</span>
+<span class="lineno">23</span>             <span class="kt">string</span> <span class="n">input</span> <span class="p">=</span> <span class="n">Console</span><span class="p">.</span><span class="n">ReadLine</span><span class="p">();</span> <span class="c1">// Example: 2015-07-01 2015-07-04</span>
+<span class="lineno">24</span>             <span class="k">if</span> <span class="p">(</span><span class="n">input</span><span class="p">.</span><span class="n">Equals</span><span class="p">(</span><span class="s">&quot;quit&quot;</span><span class="p">))</span> <span class="k">break</span><span class="p">;</span>
+<span class="lineno">25</span>  
+<span class="lineno">26</span>             <span class="k">try</span>
+<span class="lineno">27</span>             <span class="p">{</span>
+<span class="lineno">28</span>                 <span class="n">date</span><span class="p">[</span><span class="m">0</span><span class="p">]</span> <span class="p">=</span> <span class="n">DateTime</span><span class="p">.</span><span class="n">Parse</span><span class="p">(</span><span class="n">input</span><span class="p">.</span><span class="n">Substring</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="m">10</span><span class="p">)).</span><span class="n">ToLongDateString</span><span class="p">()</span>
+<span class="lineno">29</span>                     <span class="p">.</span><span class="n">Substring</span><span class="p">(</span><span class="n">DateTime</span><span class="p">.</span><span class="n">Parse</span><span class="p">(</span><span class="n">input</span><span class="p">.</span><span class="n">Substring</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="m">10</span><span class="p">)).</span><span class="n">ToLongDateString</span><span class="p">().</span><span class="n">IndexOf</span><span class="p">(</span><span class="sc">&#39;,&#39;</span><span class="p">)</span> <span class="p">+</span> <span class="m">2</span><span class="p">);</span>
+<span class="lineno">30</span>                 <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot; &quot;</span> <span class="p">+</span> <span class="n">date</span><span class="p">[</span><span class="m">0</span><span class="p">]);</span>
+<span class="lineno">31</span>                 <span class="n">date</span><span class="p">[</span><span class="m">1</span><span class="p">]</span> <span class="p">=</span> <span class="n">DateTime</span><span class="p">.</span><span class="n">Parse</span><span class="p">(</span><span class="n">input</span><span class="p">.</span><span class="n">Substring</span><span class="p">(</span><span class="m">11</span><span class="p">,</span> <span class="m">10</span><span class="p">)).</span><span class="n">ToLongDateString</span><span class="p">()</span>
+<span class="lineno">32</span>                     <span class="p">.</span><span class="n">Substring</span><span class="p">(</span><span class="n">DateTime</span><span class="p">.</span><span class="n">Parse</span><span class="p">(</span><span class="n">input</span><span class="p">.</span><span class="n">Substring</span><span class="p">(</span><span class="m">11</span><span class="p">,</span> <span class="m">10</span><span class="p">)).</span><span class="n">ToLongDateString</span><span class="p">().</span><span class="n">IndexOf</span><span class="p">(</span><span class="sc">&#39;,&#39;</span><span class="p">)</span> <span class="p">+</span> <span class="m">2</span><span class="p">);</span>
+<span class="lineno">33</span>                 <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot; &quot;</span> <span class="p">+</span> <span class="n">date</span><span class="p">[</span><span class="m">1</span><span class="p">]);</span>
+<span class="lineno">34</span>  
+<span class="lineno">35</span>                 <span class="c1">// Remove equal stuffs</span>
+<span class="lineno">36</span>                 <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;   -&quot;</span> <span class="p">+</span> <span class="n">date</span><span class="p">[</span><span class="m">0</span><span class="p">].</span><span class="n">Substring</span><span class="p">(</span><span class="n">date</span><span class="p">[</span><span class="m">0</span><span class="p">].</span><span class="n">Length</span> <span class="p">-</span> <span class="m">5</span><span class="p">,</span> <span class="m">5</span><span class="p">));</span>
+<span class="lineno">37</span>                 <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;   -&quot;</span> <span class="p">+</span> <span class="n">date</span><span class="p">[</span><span class="m">1</span><span class="p">].</span><span class="n">Substring</span><span class="p">(</span><span class="n">date</span><span class="p">[</span><span class="m">1</span><span class="p">].</span><span class="n">Length</span> <span class="p">-</span> <span class="m">5</span><span class="p">,</span> <span class="m">5</span><span class="p">));</span>
+<span class="lineno">38</span>                 <span class="k">if</span> <span class="p">(</span><span class="n">date</span><span class="p">[</span><span class="m">0</span><span class="p">].</span><span class="n">Substring</span><span class="p">(</span><span class="n">date</span><span class="p">[</span><span class="m">0</span><span class="p">].</span><span class="n">Length</span> <span class="p">-</span> <span class="m">5</span><span class="p">,</span> <span class="m">5</span><span class="p">).</span><span class="n">Equals</span><span class="p">(</span><span class="n">date</span><span class="p">[</span><span class="m">1</span><span class="p">].</span><span class="n">Substring</span><span class="p">(</span><span class="n">date</span><span class="p">[</span><span class="m">1</span><span class="p">].</span><span class="n">Length</span> <span class="p">-</span> <span class="m">5</span><span class="p">,</span> <span class="m">5</span><span class="p">)))</span>
+<span class="lineno">39</span>                 <span class="p">{</span>
+<span class="lineno">40</span>                     <span class="n">date</span><span class="p">[</span><span class="m">1</span><span class="p">]</span> <span class="p">=</span> <span class="n">date</span><span class="p">[</span><span class="m">1</span><span class="p">].</span><span class="n">Remove</span><span class="p">(</span><span class="n">date</span><span class="p">[</span><span class="m">1</span><span class="p">].</span><span class="n">Length</span> <span class="p">-</span> <span class="m">5</span><span class="p">,</span> <span class="m">5</span><span class="p">);</span> <span class="c1">// Remove year from the second date</span>
+<span class="lineno">41</span>                     <span class="k">if</span> <span class="p">(</span><span class="n">date</span><span class="p">[</span><span class="m">0</span><span class="p">].</span><span class="n">Substring</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="n">date</span><span class="p">[</span><span class="m">0</span><span class="p">].</span><span class="n">IndexOf</span><span class="p">(</span><span class="sc">&#39; &#39;</span><span class="p">)</span> <span class="p">-</span> <span class="m">1</span><span class="p">).</span><span class="n">Equals</span><span class="p">(</span><span class="n">date</span><span class="p">[</span><span class="m">1</span><span class="p">].</span><span class="n">Substring</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="n">date</span><span class="p">[</span><span class="m">1</span><span class="p">].</span><span class="n">IndexOf</span><span class="p">(</span><span class="sc">&#39; &#39;</span><span class="p">)</span> <span class="p">-</span> <span class="m">1</span><span class="p">)))</span>
+<span class="lineno">42</span>                     <span class="p">{</span>
+<span class="lineno">43</span>                         <span class="n">date</span><span class="p">[</span><span class="m">0</span><span class="p">]</span> <span class="p">=</span> <span class="n">date</span><span class="p">[</span><span class="m">0</span><span class="p">].</span><span class="n">Remove</span><span class="p">(</span><span class="n">date</span><span class="p">[</span><span class="m">0</span><span class="p">].</span><span class="n">Length</span> <span class="p">-</span> <span class="m">5</span><span class="p">,</span> <span class="m">5</span><span class="p">);</span> <span class="c1">// Remove year from the first date</span>
+<span class="lineno">44</span>                         <span class="n">date</span><span class="p">[</span><span class="m">1</span><span class="p">]</span> <span class="p">=</span> <span class="n">date</span><span class="p">[</span><span class="m">1</span><span class="p">].</span><span class="n">Remove</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="n">date</span><span class="p">[</span><span class="m">1</span><span class="p">].</span><span class="n">IndexOf</span><span class="p">(</span><span class="sc">&#39; &#39;</span><span class="p">)</span> <span class="p">+</span> <span class="m">1</span><span class="p">);</span> <span class="c1">// Remove month from the second date</span>
+<span class="lineno">45</span>                     <span class="p">}</span>
+<span class="lineno">46</span>                     <span class="c1">// If less than a year apart</span>
+<span class="lineno">47</span>                     <span class="k">else</span> <span class="nf">if</span> <span class="p">(</span> <span class="p">(</span><span class="n">DateTime</span><span class="p">.</span><span class="n">Parse</span><span class="p">(</span><span class="n">date</span><span class="p">[</span><span class="m">1</span><span class="p">]).</span><span class="n">Subtract</span><span class="p">(</span><span class="n">DateTime</span><span class="p">.</span><span class="n">Parse</span><span class="p">(</span><span class="n">date</span><span class="p">[</span><span class="m">0</span><span class="p">])).</span><span class="n">TotalDays</span> <span class="p">&amp;</span><span class="n">lt</span><span class="p">;</span> <span class="m">365</span> <span class="p">)</span> <span class="cm">/*&amp;amp;&amp;amp; !(DateTime.Parse(date[0]).AddYears(1).Equals(DateTime.Parse(date[1])))*/</span> <span class="p">)</span>
+<span class="lineno">48</span>                         <span class="n">date</span><span class="p">[</span><span class="m">1</span><span class="p">]</span> <span class="p">=</span> <span class="n">date</span><span class="p">[</span><span class="m">1</span><span class="p">].</span><span class="n">Remove</span><span class="p">(</span><span class="n">date</span><span class="p">[</span><span class="m">1</span><span class="p">].</span><span class="n">Length</span> <span class="p">-</span> <span class="m">5</span><span class="p">,</span> <span class="m">5</span><span class="p">);</span> <span class="c1">// Remove year from the first date</span>
+<span class="lineno">49</span>                 <span class="p">}</span>
+<span class="lineno">50</span>  
+<span class="lineno">51</span>                 <span class="cp">#region Debugging writes</span>
+<span class="lineno">52</span>                 <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span> <span class="n">i</span> <span class="p">&amp;</span><span class="n">lt</span><span class="p">;</span> <span class="m">2</span><span class="p">;</span> <span class="n">i</span><span class="p">++)</span>
+<span class="lineno">53</span>                 <span class="p">{</span>
+<span class="lineno">54</span>                     <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;date[{0}] = &quot;</span> <span class="p">+</span> <span class="n">date</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">i</span><span class="p">);</span>
+<span class="lineno">55</span>                     <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;date[{0}].IndexOf(\&quot;,\&quot;) = &quot;</span> <span class="p">+</span> <span class="n">date</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">IndexOf</span><span class="p">(</span><span class="s">&quot;,&quot;</span><span class="p">),</span> <span class="n">i</span><span class="p">);</span>
+<span class="lineno">56</span>                     <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;date[{0}].Substring(date[{0}].IndexOf(\&quot;,\&quot;)) = &quot;</span> <span class="p">+</span> <span class="n">date</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">Substring</span><span class="p">(</span><span class="n">date</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">IndexOf</span><span class="p">(</span><span class="s">&quot;,&quot;</span><span class="p">)),</span> <span class="n">i</span><span class="p">);</span>
+<span class="lineno">57</span>                 <span class="p">}</span>
+<span class="lineno">58</span>                 <span class="cp">#endregion</span>
+<span class="lineno">59</span>  
+<span class="lineno">60</span>                 <span class="c1">// Add suffixes to dates</span>
+<span class="lineno">61</span>                 <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span> <span class="n">i</span> <span class="p">&amp;</span><span class="n">lt</span><span class="p">;</span> <span class="m">2</span><span class="p">;</span> <span class="n">i</span><span class="p">++)</span>
+<span class="lineno">62</span>                     <span class="k">if</span> <span class="p">(</span><span class="n">date</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">Substring</span><span class="p">(</span><span class="n">date</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">IndexOf</span><span class="p">(</span><span class="s">&quot;,&quot;</span><span class="p">)</span> <span class="p">-</span> <span class="m">1</span><span class="p">,</span> <span class="m">1</span><span class="p">).</span><span class="n">Equals</span><span class="p">(</span><span class="s">&quot;1&quot;</span><span class="p">))</span> <span class="n">date</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="p">=</span> <span class="n">date</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">Insert</span><span class="p">(</span><span class="n">date</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">IndexOf</span><span class="p">(</span><span class="s">&quot;,&quot;</span><span class="p">),</span> <span class="s">&quot;st&quot;</span><span class="p">);</span>
+<span class="lineno">63</span>                     <span class="k">else</span> <span class="nf">if</span> <span class="p">(</span><span class="n">date</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">Substring</span><span class="p">(</span><span class="n">date</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">IndexOf</span><span class="p">(</span><span class="s">&quot;,&quot;</span><span class="p">)</span> <span class="p">-</span> <span class="m">1</span><span class="p">,</span> <span class="m">1</span><span class="p">).</span><span class="n">Equals</span><span class="p">(</span><span class="s">&quot;2&quot;</span><span class="p">))</span> <span class="n">date</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="p">=</span> <span class="n">date</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">Insert</span><span class="p">(</span><span class="n">date</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">IndexOf</span><span class="p">(</span><span class="s">&quot;,&quot;</span><span class="p">),</span> <span class="s">&quot;nd&quot;</span><span class="p">);</span>
+<span class="lineno">64</span>                     <span class="k">else</span> <span class="nf">if</span> <span class="p">(</span><span class="n">date</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">Substring</span><span class="p">(</span><span class="n">date</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">IndexOf</span><span class="p">(</span><span class="s">&quot;,&quot;</span><span class="p">)</span> <span class="p">-</span> <span class="m">1</span><span class="p">,</span> <span class="m">1</span><span class="p">).</span><span class="n">Equals</span><span class="p">(</span><span class="s">&quot;3&quot;</span><span class="p">))</span> <span class="n">date</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="p">=</span> <span class="n">date</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">Insert</span><span class="p">(</span><span class="n">date</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">IndexOf</span><span class="p">(</span><span class="s">&quot;,&quot;</span><span class="p">),</span> <span class="s">&quot;rd&quot;</span><span class="p">);</span>
+<span class="lineno">65</span>                     <span class="k">else</span> <span class="n">date</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="p">=</span> <span class="n">date</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">Insert</span><span class="p">(</span><span class="n">date</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">IndexOf</span><span class="p">(</span><span class="s">&quot;,&quot;</span><span class="p">),</span> <span class="s">&quot;th&quot;</span><span class="p">);</span>
+<span class="lineno">66</span>                 <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span> <span class="n">i</span> <span class="p">&amp;</span><span class="n">lt</span><span class="p">;</span> <span class="m">2</span><span class="p">;</span> <span class="n">i</span><span class="p">++)</span>
+<span class="lineno">67</span>                     <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;date[{0}] = &quot;</span> <span class="p">+</span> <span class="n">date</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">i</span><span class="p">);</span>
+<span class="lineno">68</span>  
+<span class="lineno">69</span>                 <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span>
+<span class="lineno">70</span>                     <span class="p">((</span><span class="n">date</span><span class="p">[</span><span class="m">0</span><span class="p">].</span><span class="n">Substring</span><span class="p">(</span><span class="n">date</span><span class="p">[</span><span class="m">0</span><span class="p">].</span><span class="n">Length</span> <span class="p">-</span> <span class="m">1</span><span class="p">).</span><span class="n">Equals</span><span class="p">(</span><span class="s">&quot;,&quot;</span><span class="p">))</span> <span class="p">?</span> <span class="p">(</span><span class="n">date</span><span class="p">[</span><span class="m">0</span><span class="p">].</span><span class="n">Remove</span><span class="p">(</span><span class="n">date</span><span class="p">[</span><span class="m">0</span><span class="p">].</span><span class="n">Length</span> <span class="p">-</span> <span class="m">1</span><span class="p">))</span> <span class="p">:</span> <span class="p">(</span><span class="n">date</span><span class="p">[</span><span class="m">0</span><span class="p">]))</span> <span class="p">+</span> <span class="s">&quot; - &quot;</span> <span class="p">+</span>
+<span class="lineno">71</span>                     <span class="p">((</span><span class="n">date</span><span class="p">[</span><span class="m">1</span><span class="p">].</span><span class="n">Substring</span><span class="p">(</span><span class="n">date</span><span class="p">[</span><span class="m">1</span><span class="p">].</span><span class="n">Length</span> <span class="p">-</span> <span class="m">1</span><span class="p">).</span><span class="n">Equals</span><span class="p">(</span><span class="s">&quot;,&quot;</span><span class="p">))</span> <span class="p">?</span> <span class="p">(</span><span class="n">date</span><span class="p">[</span><span class="m">1</span><span class="p">].</span><span class="n">Remove</span><span class="p">(</span><span class="n">date</span><span class="p">[</span><span class="m">1</span><span class="p">].</span><span class="n">Length</span> <span class="p">-</span> <span class="m">1</span><span class="p">))</span> <span class="p">:</span> <span class="p">(</span><span class="n">date</span><span class="p">[</span><span class="m">1</span><span class="p">])));</span>
+<span class="lineno">72</span>             <span class="p">}</span>
+<span class="lineno">73</span>             <span class="k">catch</span> <span class="p">(</span><span class="n">FormatException</span><span class="p">)</span> <span class="p">{</span> <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;* Invalid date format: Most likely becuase that one of the dates doesn&#39;t exist&quot;</span><span class="p">);</span> <span class="p">}</span>
+<span class="lineno">74</span>             <span class="k">catch</span> <span class="p">(</span><span class="n">IndexOutOfRangeException</span><span class="p">)</span> <span class="p">{</span> <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;* Index ouf of range exexpetion&quot;</span><span class="p">);</span>  <span class="p">}</span>
+<span class="lineno">75</span>         <span class="p">}</span> 
+<span class="lineno">76</span>         <span class="k">while</span> <span class="p">(</span><span class="k">true</span><span class="p">);</span>
+<span class="lineno">77</span>     <span class="p">}</span>
+<span class="lineno">78</span> <span class="p">}</span> <span class="p">}</span></code></pre></div>
+</code></pre>
+
+<ol>
+  <li>highlight
+<div class="highlight"><pre><code class="language-java" data-lang="java"><span class="lineno"> 1</span> <span class="kn">import</span> <span class="nn">java.util.</span><span class="o">&lt;</span><span class="n">em</span><span class="o">&gt;;</span>
+<span class="lineno"> 2</span> <span class="kn">import</span> <span class="nn">java.lang.</span><span class="o">&lt;/</span><span class="n">em</span><span class="o">&gt;;</span>
+<span class="lineno"> 3</span> <span class="kn">import</span> <span class="nn">java.io.*</span><span class="o">;&lt;/</span><span class="n">li</span><span class="o">&gt;</span>
+<span class="lineno"> 4</span> <span class="o">&lt;/</span><span class="n">ol</span><span class="o">&gt;</span>
+<span class="lineno"> 5</span> 
+<span class="lineno"> 6</span> <span class="o">&lt;</span><span class="n">p</span><span class="o">&gt;</span><span class="kd">class</span> <span class="nc">MethodDemo1</span> <span class="o">{</span>
+<span class="lineno"> 7</span>     <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">numbering</span><span class="o">()</span> <span class="o">{</span>
+<span class="lineno"> 8</span> 		<span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
+<span class="lineno"> 9</span> 		<span class="k">while</span> <span class="o">(</span><span class="n">i</span> <span class="o">&amp;</span><span class="n">lt</span><span class="o">;</span> <span class="mi">10</span><span class="o">)</span> <span class="o">{</span>
+<span class="lineno">10</span> 			<span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">i</span><span class="o">);</span>
+<span class="lineno">11</span> 			<span class="n">i</span><span class="o">++;</span>
+<span class="lineno">12</span> 		<span class="o">}</span>
+<span class="lineno">13</span> 	<span class="o">}&lt;/</span><span class="n">p</span><span class="o">&gt;</span>
+<span class="lineno">14</span> 
+<span class="lineno">15</span> <span class="o">&lt;</span><span class="n">pre</span><span class="o">&gt;&lt;</span><span class="n">code</span><span class="o">&gt;</span><span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+<span class="lineno">16</span> 	<span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
+<span class="lineno">17</span> 	<span class="k">while</span> <span class="o">(</span><span class="n">i</span> <span class="o">&amp;</span><span class="n">lt</span><span class="o">;</span> <span class="mi">10</span><span class="o">)</span> <span class="o">{</span>
+<span class="lineno">18</span> 		<span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">i</span><span class="o">);</span>
+<span class="lineno">19</span> 		<span class="n">i</span><span class="o">++;</span>
+<span class="lineno">20</span> <span class="o">}</span> <span class="o">}</span></code></pre></div>
+</code></pre>
+
+<h2 id="test-tieng-viet">Test tieng viet</h2>
+
+<p>Ngoài ra, lãnh đạo Cục Hàng không cho biết, sẽ tăng cường an ninh trên máy bay theo nguyên tắc “hai người trong buồng lái” theo hướng đưa tiếp viên trưởng vào buồng lái khi một phi công cần đi ra ngoài.</p>
+
+<p>“Nếu đưa thêm một phi công nữa vào buồng lái để có 3 phi công trên chuyến bay thì rất khó áp dụng. Bởi không chỉ làm tăng thêm nhân lực mà còn tăng thêm cả chi phí”, ông Thanh nói.</p>
+
+<p>Theo lãnh đạo Cục Hàng không, sau vụ khủng bố ở Mỹ vào ngày 11/9/2001, để chống thâm nhập từ bên ngoài nên buồng lái của phi công có thêm chốt cài, mật mã để mở cửa. Tuy nhiên, với vụ tai nạn máy bay của Đức vừa qua thì cơ phó đã lợi dụng chốt cài này để khóa cửa. Do đó, ngành hàng không các nước đều không xét tới chốt cài này mà chỉ tăng cường thêm giải pháp để khắc phục hạn chế rủi ro theo nguyên tắc “hai người trong buồng lái”.</p>
+
+<p>Đại diện một số hãng hàng không Việt Nam cũng khẳng định tăng cường an ninh hàng không sau vụ tai nạn máy bay Germanwings. Hiện nay một số hãng bay đã áp dụng quy định, phải có một tiếp viên trong buồng lái mỗi khi một phi công đi ra cho tới khi quay trở lại.</p>
+
+<p>Máy bay Germanwings của Đức đâm xuống núi Alps (Pháp) ngày 24/3 làm 150 hành khách thiệt mạng. Kết quả điều tra ban đầu cho thấy cơ phó chuyến bay đã cố tình vô hiệu hóa hệ thống khóa cửa từ bên trong buồng lái để thực hiện các hành vi cực đoan khi cơ trưởng không có mặt.</p>
+
+]]></content>
+  </entry>
+  
+</feed>
