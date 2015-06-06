@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: 
-
-Sitemap: http://hddt.github.io/sitemap.xml 
